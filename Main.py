@@ -18,5 +18,3 @@ def main():
         with file_path.open(mode = "w") as file:
             file.write(f'{overheads.overhead()}\n{cash_on_hand.cash_calculation()}\n{profit_loss.profit_calculation()}')
 main()
-
-#test final
