@@ -9,7 +9,7 @@ with file_path.open(mode="r", encoding="UTF-8", newline="") as file:
     reader = csv.reader(file)
     next(reader) # skip header
 
-    # create an empty lists to store cash on hand record
+    # create an empty lists to store day and cash on hand 
     Cash_on_hand=[] 
 
     # append day and cash on hand into the cash_on_hand list
